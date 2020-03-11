@@ -1,0 +1,12 @@
+@import "./reset";
+@import "./mixin";
+@import "./flapCard";
+@import "./home";
+
+//在全局中引入分节，再在主的菜单页面引入全局的样式，分节也是混入等耦合度较高的代码
+@import "./reset.scss";
+@import "./mixin.scss";
+@import "./flapCard.scss";
+//import scss需要分号！
+@import "./home";
+
